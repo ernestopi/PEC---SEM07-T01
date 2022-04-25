@@ -1,5 +1,5 @@
-peso = float(input())
-altura = float(input())
+peso = float(input()).strip()
+altura = float(input()).strip()
 imc = peso / (altura**2)
 print(imc)
 if imc < 18.5:
